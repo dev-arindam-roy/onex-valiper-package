@@ -21,3 +21,10 @@ If you want to use the facade to log messages, add this to your facades in app.p
 ```php
 'OnexValiper'=> Onex\Valiper\Valiper\ValiperClassFacade::class,
 ```
+
+### How to use?:
+
+```php
+$validator = OnexValiper::checkInputValidation($formRequestData, $validationRules, $validationMessages);
+dd($validator);
+```
