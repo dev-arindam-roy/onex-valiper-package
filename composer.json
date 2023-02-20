@@ -15,5 +15,15 @@
         "psr-4": {
             "Onex\\Valiper\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Onex\\Valiper\\OnexValiperServiceProvider"
+            ],
+            "aliases": {
+                "OnexValiper": "Onex\\Valiper\\Valiper\\ValiperClassFacade"
+            }
+        }
     }
 }
