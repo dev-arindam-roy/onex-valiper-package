@@ -1,5 +1,5 @@
 {
-    "name": "onex/valiper",
+    "name": "onexcrm/valiper",
     "description": "A simple laravel validation utility helper",
     "type": "library",
     "license": "MIT",
