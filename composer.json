@@ -1,0 +1,19 @@
+{
+    "name": "onex/valiper",
+    "description": "A simple laravel validation utility helper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arindam Roy",
+            "email": "arindam.roy.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Onex\\Valiper\\": "src/"
+        }
+    }
+}
